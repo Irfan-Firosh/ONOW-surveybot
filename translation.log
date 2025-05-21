@@ -1,0 +1,666 @@
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Da usted su consentimiento para que recopilemos sus datos?' \u2192 'Do you consent to us collecting your data?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Da usted su consentimiento para que recopilemos sus datos?' \u2192 'Do you consent to us collecting your data?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Tiene actualmente un negocio operando?' \u2192 'Do you currently have a business operating?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Tiene actualmente un negocio operando?' \u2192 'Do you currently have a business operating?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Por favor proporcione el nombre de su negocio' \u2192 'Please provide the name of your business'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Por favor proporcione el nombre de su negocio' \u2192 'Please provide the name of your business'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Usted fundó o cofundó el negocio?' \u2192 'Did you found or co-found the business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Usted fundó o cofundó el negocio?' \u2192 'Did you found or co-found the business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuál es su posición en el negocio?' \u2192 'What is your position in the business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuál es su posición en el negocio?' \u2192 'What is your position in the business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué sector opera su negocio?' \u2192 'In which sector does your business operate?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué sector opera su negocio?' \u2192 'In which sector does your business operate?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cómo clasificaría la etapa actual de su negocio?' \u2192 'How would you classify the current stage of your business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cómo clasificaría la etapa actual de su negocio?' \u2192 'How would you classify the current stage of your business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Está su empresa registrada oficialmente en el SAT?' \u2192 'Is your company officially registered with the SAT?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Está su empresa registrada oficialmente en el SAT?' \u2192 'Is your company officially registered with the SAT?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Durante el año pasado, ¿cuántos ingresos (ventas/facturación) generó su empresa POR MES? Si tiene un negocio, pero aún no genera ingresos, escriba 0. Utilice la moneda local.' \u2192 'During the past year, how much revenue (sales/turnover) did your company generate PER MONTH? If you have a business but are not generating revenue yet, write 0. Use the local currency.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Durante el año pasado, ¿cuántos ingresos (ventas/facturación) generó su empresa POR MES? Si tiene un negocio, pero aún no genera ingresos, escriba 0. Utilice la moneda local.' \u2192 'During the past year, how much revenue (sales/turnover) did your company generate PER MONTH? If you have a business but are not generating revenue yet, write 0. Use the local currency.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿El número anterior representa un aumento o una disminución en los ingresos de su negocio en comparación con el año anterior?' \u2192 'Does the previous number represent an increase or a decrease in your business income compared to the previous year?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿El número anterior representa un aumento o una disminución en los ingresos de su negocio en comparación con el año anterior?' \u2192 'Does the previous number represent an increase or a decrease in your business income compared to the previous year?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si respondió Aumentó o Disminuyó, ¿puede estimar en cuánto aumentó o disminuyó?' \u2192 'If you answered Increased or Decreased, can you estimate by how much it increased or decreased?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si respondió Aumentó o Disminuyó, ¿puede estimar en cuánto aumentó o disminuyó?' \u2192 'If you answered Increased or Decreased, can you estimate by how much it increased or decreased?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Contrató a nuevas personas en comparación con el año pasado?' \u2192 'Did you hire new people compared to last year?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Contrató a nuevas personas en comparación con el año pasado?' \u2192 'Did you hire new people compared to last year?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si la respuesta es si, ¿cuantás personas mas contrató?' \u2192 'If the answer is yes, how many more people did you hire?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si la respuesta es si, ¿cuantás personas mas contrató?' \u2192 'If the answer is yes, how many more people did you hire?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuántos empleados remunerados a TIEMPO COMPLETO, incluido usted mismo, tiene actualmente? (una estimación está bien). Si eres solo tú, por favor pon 1.' \u2192 'How many full-time paid employees, including yourself, do you currently have? (an estimate is fine). If it's just you, please put 1.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuántos empleados remunerados a TIEMPO COMPLETO, incluido usted mismo, tiene actualmente? (una estimación está bien). Si eres solo tú, por favor pon 1.' \u2192 'How many full-time paid employees, including yourself, do you currently have? (an estimate is fine). If it's just you, please put 1.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuántos empleados remunerados a TIEMPO PARCIAL (incluidos los trabajadores ocasionales) tiene actualmente? (una estimación está bien).' \u2192 'How many PART-TIME paid employees (including casual workers) do you currently have? (an estimate is fine).'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuántos empleados remunerados a TIEMPO PARCIAL (incluidos los trabajadores ocasionales) tiene actualmente? (una estimación está bien).' \u2192 'How many PART-TIME paid employees (including casual workers) do you currently have? (an estimate is fine).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Recaudó inversiones externas para su negocio en el pasado a través de familiares, amigos, instituciones financieras u otras fuentes de capital de inversión? Si es así, ¿cuánto? Calcule la inversión acumulada exacta (en moneda local). NO incluya sus propios ahorros (una estimación está bien).' \u2192 'Did you raise external investments for your business in the past through family, friends, financial institutions, or other sources of investment capital? If so, how much? Calculate the exact accumulated investment (in local currency). DO NOT include your own savings (an estimate is fine).'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Recaudó inversiones externas para su negocio en el pasado a través de familiares, amigos, instituciones financieras u otras fuentes de capital de inversión? Si es así, ¿cuánto? Calcule la inversión acumulada exacta (en moneda local). NO incluya sus propios ahorros (una estimación está bien).' \u2192 'Did you raise external investments for your business in the past through family, friends, financial institutions, or other sources of investment capital? If so, how much? Calculate the exact accumulated investment (in local currency). DO NOT include your own savings (an estimate is fine).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Su empresa trabaja directa o indirectamente con su comunidad y/o sus cadenas de suministro?' \u2192 'Does your company work directly or indirectly with your community and/or your supply chains?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Su empresa trabaja directa o indirectamente con su comunidad y/o sus cadenas de suministro?' \u2192 'Does your company work directly or indirectly with your community and/or your supply chains?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿De cuál de las siguientes maneras trabaja su empresa con la comunidad/cadena de suministro?' \u2192 'In which of the following ways does your company work with the community/supply chain?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿De cuál de las siguientes maneras trabaja su empresa con la comunidad/cadena de suministro?' \u2192 'In which of the following ways does your company work with the community/supply chain?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si puede, explique más detalladamente cómo se relaciona su empresa con la comunidad/cadena de suministro:' \u2192 'If possible, please explain in more detail how your company is related to the community/supply chain.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si puede, explique más detalladamente cómo se relaciona su empresa con la comunidad/cadena de suministro:' \u2192 'If possible, please explain in more detail how your company is related to the community/supply chain.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Calcule cuántas de estas personas experimentan mejor calidad de vida al trabajar directa o indirectamente para beneficiar a las partes interesadas de la comunidad indicadas en las respuestas anteriores (¡sea lo más preciso posible!)' \u2192 'Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers (be as precise as possible!)'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Calcule cuántas de estas personas experimentan mejor calidad de vida al trabajar directa o indirectamente para beneficiar a las partes interesadas de la comunidad indicadas en las respuestas anteriores (¡sea lo más preciso posible!)' \u2192 'Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers (be as precise as possible!)'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si respondió Más de 1000, calcule el número exacto.' \u2192 'If you answered More than 1000, calculate the exact number.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si respondió Más de 1000, calcule el número exacto.' \u2192 'If you answered More than 1000, calculate the exact number.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuál es su enfoque de negocio sustentable en cuanto al cuidado del medio ambiente?' \u2192 'What is your sustainable business approach regarding environmental care?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuál es su enfoque de negocio sustentable en cuanto al cuidado del medio ambiente?' \u2192 'What is your sustainable business approach regarding environmental care?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Qué prácticas de sostenibilidad ambiental ha incorporado a su negocio?' \u2192 'What environmental sustainability practices have you incorporated into your business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Qué prácticas de sostenibilidad ambiental ha incorporado a su negocio?' \u2192 'What environmental sustainability practices have you incorporated into your business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué medida está de acuerdo con la siguiente afirmación?
+
+Mi experiencia con Aspire - Sinapis (durante el programa y post-programa de ex alumnos) sigue teniendo un impacto significativo en los resultados de mi negocio actual.' \u2192 'To what extent do you agree with the following statement?
+
+My experience with Aspire - Sinapis (during the program and post-program as an alumni) continues to have a significant impact on the results of my current business.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué medida está de acuerdo con la siguiente afirmación?
+
+Mi experiencia con Aspire - Sinapis (durante el programa y post-programa de ex alumnos) sigue teniendo un impacto significativo en los resultados de mi negocio actual.' \u2192 'To what extent do you agree with the following statement?
+
+My experience with Aspire - Sinapis (during the program and post-program as an alumni) continues to have a significant impact on the results of my current business.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué medida está de acuerdo con la afirmación?
+
+CMF Marketplace México - Sinapis salvó mi negocio del fracaso.' \u2192 'To what extent do you agree with the statement?
+
+CMF Marketplace Mexico - Sinapis saved my business from failure.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué medida está de acuerdo con la afirmación?
+
+CMF Marketplace México - Sinapis salvó mi negocio del fracaso.' \u2192 'To what extent do you agree with the statement?
+
+CMF Marketplace Mexico - Sinapis saved my business from failure.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cómo se siente al pagar o aceptar un soborno?' \u2192 'How does it feel to pay or accept a bribe?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cómo se siente al pagar o aceptar un soborno?' \u2192 'How does it feel to pay or accept a bribe?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Desde que completó el programa CMF Marketplace México - Sinapis, ¿le han pedido que pague o acepte algún soborno?' \u2192 'Since completing the CMF Marketplace Mexico - Sinapis program, have you been asked to pay or accept any bribes?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Desde que completó el programa CMF Marketplace México - Sinapis, ¿le han pedido que pague o acepte algún soborno?' \u2192 'Since completing the CMF Marketplace Mexico - Sinapis program, have you been asked to pay or accept any bribes?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuántas veces se negó a pagar o aceptar un soborno como resultado directo de su experiencia con CMF Marketplace México - Sinapis?' \u2192 'How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico - Sinapis?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuántas veces se negó a pagar o aceptar un soborno como resultado directo de su experiencia con CMF Marketplace México - Sinapis?' \u2192 'How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico - Sinapis?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Tiene algún comentario que le gustaría compartir sobre cómo su experiencia con CMF Marketplace México - Sinapis ha seguido impactándolo a usted o a su negocio?' \u2192 'Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico - Sinapis has continued to impact you or your business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Tiene algún comentario que le gustaría compartir sobre cómo su experiencia con CMF Marketplace México - Sinapis ha seguido impactándolo a usted o a su negocio?' \u2192 'Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico - Sinapis has continued to impact you or your business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué áreas de su negocio está enfrentando más dificultades? ¿En qué áreas siente que necesita más capacitación? (Puede seleccionar más de una opción).' \u2192 'In which areas of your business are you facing the most difficulties? In which areas do you feel you need more training? (You can select more than one option).'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué áreas de su negocio está enfrentando más dificultades? ¿En qué áreas siente que necesita más capacitación? (Puede seleccionar más de una opción).' \u2192 'In which areas of your business are you facing the most difficulties? In which areas do you feel you need more training? (You can select more than one option).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Por favor escriba su nombre completo.' \u2192 'Please write your full name.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Por favor escriba su nombre completo.' \u2192 'Please write your full name.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Por favor, comparta el mejor número de teléfono para comunicarnos con usted.' \u2192 'Please share the best phone number to contact you.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Por favor, comparta el mejor número de teléfono para comunicarnos con usted.' \u2192 'Please share the best phone number to contact you.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Comprendido qué es un negocio del Reino y/o podido describirlo a otros' \u2192 'Understood what a Kingdom business is and/or been able to describe it to others'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Comprendido qué es un negocio del Reino y/o podido describirlo a otros' \u2192 'Understood what a Kingdom business is and/or been able to describe it to others'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Recibido información sobre el Evangelio y querido saber más' \u2192 'Received information about the Gospel and wanted to know more'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Recibido información sobre el Evangelio y querido saber más' \u2192 'Received information about the Gospel and wanted to know more'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Pedido oración y/o orado contigo o con un colega' \u2192 'Prayer request and/or prayed with you or a colleague'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Pedido oración y/o orado contigo o con un colega' \u2192 'Prayer request and/or prayed with you or a colleague'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Llegado a ser creyentes en Jesucristo' \u2192 'Become believers in Jesus Christ'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Llegado a ser creyentes en Jesucristo' \u2192 'Become believers in Jesus Christ'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Desarrollado una relación más profunda con Jesús y otros creyentes' \u2192 'Developed a deeper relationship with Jesus and other believers'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Desarrollado una relación más profunda con Jesús y otros creyentes' \u2192 'Developed a deeper relationship with Jesus and other believers'
+INFO:root:New headers: ['respondentId', 'answeredAt', 'Do you consent to us collecting your data?', 'Do you currently have a business operating?', 'Please provide the name of your business', 'Did you found or co-found the business?', 'What is your position in the business?', 'In which sector does your business operate?', 'How would you classify the current stage of your business?', 'Is your company officially registered with the SAT?', 'During the past year, how much revenue (sales/turnover) did your company generate PER MONTH? If you have a business but are not generating revenue yet, write 0. Use the local currency.', 'Does the previous number represent an increase or a decrease in your business income compared to the previous year?', 'If you answered Increased or Decreased, can you estimate by how much it increased or decreased?', 'Did you hire new people compared to last year?', 'If the answer is yes, how many more people did you hire?', "How many full-time paid employees, including yourself, do you currently have? (an estimate is fine). If it's just you, please put 1.", 'How many PART-TIME paid employees (including casual workers) do you currently have? (an estimate is fine).', 'Did you raise external investments for your business in the past through family, friends, financial institutions, or other sources of investment capital? If so, how much? Calculate the exact accumulated investment (in local currency). DO NOT include your own savings (an estimate is fine).', 'Does your company work directly or indirectly with your community and/or your supply chains?', 'In which of the following ways does your company work with the community/supply chain?', 'If possible, please explain in more detail how your company is related to the community/supply chain.', 'Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers (be as precise as possible!)', 'If you answered More than 1000, calculate the exact number.', 'What is your sustainable business approach regarding environmental care?', 'What environmental sustainability practices have you incorporated into your business?', 'To what extent do you agree with the following statement?\n\nMy experience with Aspire - Sinapis (during the program and post-program as an alumni) continues to have a significant impact on the results of my current business.', 'To what extent do you agree with the statement?\n\nCMF Marketplace Mexico - Sinapis saved my business from failure.', 'How does it feel to pay or accept a bribe?', 'Since completing the CMF Marketplace Mexico - Sinapis program, have you been asked to pay or accept any bribes?', 'How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico - Sinapis?', 'Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico - Sinapis has continued to impact you or your business?', 'In which areas of your business are you facing the most difficulties? In which areas do you feel you need more training? (You can select more than one option).', 'Please write your full name.', 'Please share the best phone number to contact you.', 'Understood what a Kingdom business is and/or been able to describe it to others', 'Received information about the Gospel and wanted to know more', 'Prayer request and/or prayed with you or a colleague', 'Become believers in Jesus Christ', 'Developed a deeper relationship with Jesus and other believers']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Sí' \u2192 'Yes'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'No' \u2192 'No'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Director Ejecutivo/Presidente' \u2192 'Chief Executive Officer/President'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Otro' \u2192 'Another'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Empleado' \u2192 'Employee'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Otra Posición Ejecutiva' \u2192 'Another Executive Position'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Servicios y Consultoría' \u2192 'Services and Consulting'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Comercializacion de Productos' \u2192 'Product Marketing'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Médico: Asistencia Sanitaria, Equipamiento, Farmacia.' \u2192 'Doctor: Healthcare, Equipment, Pharmacy.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Moda y Confección' \u2192 'Fashion and Clothing'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Tecnologías de la información y las Comunicaciones' \u2192 'Information and Communication Technologies'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Fabricación: Automotriz, Madera, Textil.' \u2192 'Manufacturing: Automotive, Wood, Textile.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Financiero' \u2192 'Financial'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Energía: Petróleo, Solar, Electricidad.' \u2192 'Energy: Oil, Solar, Electricity.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Sector Informal' \u2192 'Informal Sector'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Agricultura / Agroprocesamiento' \u2192 'Agriculture / Agroprocessing'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Identificación del problema: Identificó un problema, pero aún no tiene una idea para la solución.' \u2192 'Problem identification: You have identified a problem, but you do not have an idea for the solution yet.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Tracción/ingresos tempranos del cliente: producto en mercados pequeños, que genera ingresos tempranos y es probable que esté realizando las primeras contrataciones de personal.' \u2192 'Customer traction/early revenue: product in small markets, generating early revenue and likely making initial hires.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Crecimiento rápido: viendo una demanda de clientes fuerte y constante, generando ingresos significativos y un flujo de caja positivo. ' \u2192 'Rapid growth: observing a strong and consistent customer demand, generating significant revenue and positive cash flow.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Solidificando operaciones: adquiriendo más clientes, realizando contrataciones clave de alto nivel y avanzando hacia un flujo de caja positivo.' \u2192 'Solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Empezando a ver una fuerte tracción en los ingresos: el producto o servicio se vende de manera constante, genera ingresos y genera contrataciones clave.' \u2192 'Starting to see strong traction in revenue: the product or service is selling consistently, generating revenue, and securing key hires.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Idea/Concepto: Formó una idea, pero aún no ha construido un prototipo ni ha llevado su producto/servicio al mercado.' \u2192 'Idea/Concept: He formed an idea, but has not yet built a prototype or taken his product/service to the market.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Fallido' \u2192 'Failed'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '0' \u2192 '0'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '0.00' \u2192 '0.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$250,000 pesos mensuales' \u2192 '$250,000 pesos per month'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '8,000' \u2192 '8,000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$250.000 al mes' \u2192 '$250,000 per month'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$40,000.00' \u2192 '$40,000.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Estoy apenas checando esto de el año y lo k genera ' \u2192 'I'm just checking this out from the year and what it generates'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1512871.46' \u2192 '1,512,871.46'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$60000.00' \u2192 '$60,000.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'no aplica' \u2192 'N/A'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '20000' \u2192 '20,000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '30k' \u2192 '30k'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$250 mil pesos' \u2192 '$250 million pesos'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '4000' \u2192 '4000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$4950 durante cuatro meses, pues fluctúa la cantidad.' \u2192 '$4950 over four months, as the amount fluctuates.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '35 mil' \u2192 '35 thousand'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Disminuyó' \u2192 'It decreased'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Aumentó' \u2192 'Increased'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '80%' \u2192 '80%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Sí  un 25% aproximadamente.' \u2192 'Yes, around 25%.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '25%' \u2192 '25%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '12%' \u2192 '12%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$10000.00' \u2192 '$10000.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '6%' \u2192 '6%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'disminuyó la facturación Pero es más rentable' \u2192 'The turnover decreased but it is more profitable'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '2000' \u2192 '2000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'En 2023 percibí $2925 durante 5 meses y también la cantidad era variable.' \u2192 'In 2023, I received $2925 for 5 months and the amount was also variable.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '5%' \u2192 '5%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '2' \u2192 '2'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '2 personas' \u2192 '2 people'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1' \u2192 '1'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1 diseñador' \u2192 '1 designer'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'solo tengo una persona' \u2192 'I only have one person'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '3' \u2192 '3'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '10 empleados' \u2192 '10 employees'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '10' \u2192 '10'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '5' \u2192 '5'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '10000' \u2192 '10000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'si aun no la tengo completa' \u2192 'if I don't have it complete yet'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'no' \u2192 'no'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1000' \u2192 '1000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'No. Todo lo invertí con el dinero de mi negocio y de mi otro trabajo.' \u2192 'No. I invested everything with the money from my business and my other job.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Compra directamente a una cooperativa propiedad de productores o a un grupo comunitario que son los principales proveedores de insumos para su negocio (por ejemplo, agricultores o cooperativas artesanales).' \u2192 'Buy directly from a cooperative owned by producers or a community group that are the main suppliers of inputs for your business (for example, farmers or artisan cooperatives).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Apoya a los productores primarios con insumos subsidiados y capacitación con el objetivo de que eventualmente compren sus productos o encuentren un mercado para ellos.' \u2192 'Support primary producers with subsidized inputs and training with the aim of eventually buying their products or finding a market for them.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Compra regularmente a personas informales que brindan servicios/productos para su negocio (por ejemplo, artesanos, repartidores, etc).' \u2192 'Regularly purchase from informal individuals who provide services/products for your business (e.g. artisans, delivery persons, etc.).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Son productos de belleza, limpieza e higiene personal ' \u2192 'They are beauty, cleaning, and personal hygiene products'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Proporcionamos tortilla y alimentos de calidad a nuestra comunidad ' \u2192 'We provide quality tortillas and food to our community'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'En la venta de tortilla y alimentos de calidad.' \u2192 'In the sale of tortillas and quality food.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'no aplica para mi la pregunta anterior' \u2192 'The previous question does not apply to me.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Toda la materia prima viene de comercios locales ' \u2192 'All the raw material comes from local businesses'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'somos una parte medular en la construcción de un inmueble' \u2192 'We are a key part in the construction of a property.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Solo pongo a la venta mis productos y posteriormente daré clases para elaborar mis artículos ya que hay interés por parte de la gente ' \u2192 'I will only sell my products and later I will give classes to make my items since there is interest from people.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'El idioma crea la necesidad de comunicarse con los misioneros de la Iglesia. Los alumnos que ya están, lo ponen en práctica y, de ese modo, se está mencionando la posibilidad de viajar al extranjero en un futuro.' \u2192 'The language creates the need to communicate with the missionaries of the Church. The students who are already there put it into practice, and in this way, the possibility of traveling abroad in the future is being mentioned.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Da usted su consentimiento para que recopilemos sus datos?' \u2192 'Do you give your consent for us to collect your data?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Da usted su consentimiento para que recopilemos sus datos?' \u2192 'Do you give your consent for us to collect your data?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Tiene actualmente un negocio operando?' \u2192 'Do you currently have a business operating?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Tiene actualmente un negocio operando?' \u2192 'Do you currently have a business operating?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Por favor proporcione el nombre de su negocio' \u2192 'Please provide the name of your business'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Por favor proporcione el nombre de su negocio' \u2192 'Please provide the name of your business'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Usted fundó o cofundó el negocio?' \u2192 'Did you found or co-found the business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Usted fundó o cofundó el negocio?' \u2192 'Did you found or co-found the business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuál es su posición en el negocio?' \u2192 'What is your position in the business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuál es su posición en el negocio?' \u2192 'What is your position in the business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué sector opera su negocio?' \u2192 'In which sector does your business operate?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué sector opera su negocio?' \u2192 'In which sector does your business operate?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cómo clasificaría la etapa actual de su negocio?' \u2192 'How would you classify the current stage of your business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cómo clasificaría la etapa actual de su negocio?' \u2192 'How would you classify the current stage of your business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Está su empresa registrada oficialmente en el SAT?' \u2192 'Is your company officially registered with the SAT?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Está su empresa registrada oficialmente en el SAT?' \u2192 'Is your company officially registered with the SAT?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Durante el año pasado, ¿cuántos ingresos (ventas/facturación) generó su empresa POR MES? Si tiene un negocio, pero aún no genera ingresos, escriba 0. Utilice la moneda local.' \u2192 'During the past year, how much revenue (sales/turnover) did your company generate PER MONTH? If you have a business but are not generating revenue yet, write 0. Use the local currency.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Durante el año pasado, ¿cuántos ingresos (ventas/facturación) generó su empresa POR MES? Si tiene un negocio, pero aún no genera ingresos, escriba 0. Utilice la moneda local.' \u2192 'During the past year, how much revenue (sales/turnover) did your company generate PER MONTH? If you have a business but are not generating revenue yet, write 0. Use the local currency.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿El número anterior representa un aumento o una disminución en los ingresos de su negocio en comparación con el año anterior?' \u2192 'Does the previous number represent an increase or a decrease in your business income compared to the previous year?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿El número anterior representa un aumento o una disminución en los ingresos de su negocio en comparación con el año anterior?' \u2192 'Does the previous number represent an increase or a decrease in your business income compared to the previous year?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si respondió Aumentó o Disminuyó, ¿puede estimar en cuánto aumentó o disminuyó?' \u2192 'If you answered Increased or Decreased, can you estimate by how much it increased or decreased?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si respondió Aumentó o Disminuyó, ¿puede estimar en cuánto aumentó o disminuyó?' \u2192 'If you answered Increased or Decreased, can you estimate by how much it increased or decreased?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Contrató a nuevas personas en comparación con el año pasado?' \u2192 'Did you hire new people compared to last year?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Contrató a nuevas personas en comparación con el año pasado?' \u2192 'Did you hire new people compared to last year?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si la respuesta es si, ¿cuantás personas mas contrató?' \u2192 'If the answer is yes, how many more people did you hire?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si la respuesta es si, ¿cuantás personas mas contrató?' \u2192 'If the answer is yes, how many more people did you hire?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuántos empleados remunerados a TIEMPO COMPLETO, incluido usted mismo, tiene actualmente? (una estimación está bien). Si eres solo tú, por favor pon 1.' \u2192 'How many full-time paid employees, including yourself, do you currently have? (an estimate is fine). If it's just you, please put 1.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuántos empleados remunerados a TIEMPO COMPLETO, incluido usted mismo, tiene actualmente? (una estimación está bien). Si eres solo tú, por favor pon 1.' \u2192 'How many full-time paid employees, including yourself, do you currently have? (an estimate is fine). If it's just you, please put 1.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuántos empleados remunerados a TIEMPO PARCIAL (incluidos los trabajadores ocasionales) tiene actualmente? (una estimación está bien).' \u2192 'How many PART-TIME paid employees (including casual workers) do you currently have? (an estimate is fine).'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuántos empleados remunerados a TIEMPO PARCIAL (incluidos los trabajadores ocasionales) tiene actualmente? (una estimación está bien).' \u2192 'How many PART-TIME paid employees (including casual workers) do you currently have? (an estimate is fine).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Recaudó inversiones externas para su negocio en el pasado a través de familiares, amigos, instituciones financieras u otras fuentes de capital de inversión? Si es así, ¿cuánto? Calcule la inversión acumulada exacta (en moneda local). NO incluya sus propios ahorros (una estimación está bien).' \u2192 'Did you raise external investments for your business in the past through family, friends, financial institutions, or other sources of investment capital? If so, how much? Calculate the exact accumulated investment (in local currency). DO NOT include your own savings (an estimate is fine).'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Recaudó inversiones externas para su negocio en el pasado a través de familiares, amigos, instituciones financieras u otras fuentes de capital de inversión? Si es así, ¿cuánto? Calcule la inversión acumulada exacta (en moneda local). NO incluya sus propios ahorros (una estimación está bien).' \u2192 'Did you raise external investments for your business in the past through family, friends, financial institutions, or other sources of investment capital? If so, how much? Calculate the exact accumulated investment (in local currency). DO NOT include your own savings (an estimate is fine).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Su empresa trabaja directa o indirectamente con su comunidad y/o sus cadenas de suministro?' \u2192 'Does your company work directly or indirectly with your community and/or your supply chains?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Su empresa trabaja directa o indirectamente con su comunidad y/o sus cadenas de suministro?' \u2192 'Does your company work directly or indirectly with your community and/or your supply chains?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿De cuál de las siguientes maneras trabaja su empresa con la comunidad/cadena de suministro?' \u2192 'In which of the following ways does your company work with the community/supply chain?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿De cuál de las siguientes maneras trabaja su empresa con la comunidad/cadena de suministro?' \u2192 'In which of the following ways does your company work with the community/supply chain?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si puede, explique más detalladamente cómo se relaciona su empresa con la comunidad/cadena de suministro:' \u2192 'If possible, please explain in more detail how your company is related to the community/supply chain.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si puede, explique más detalladamente cómo se relaciona su empresa con la comunidad/cadena de suministro:' \u2192 'If possible, please explain in more detail how your company is related to the community/supply chain.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Calcule cuántas de estas personas experimentan mejor calidad de vida al trabajar directa o indirectamente para beneficiar a las partes interesadas de la comunidad indicadas en las respuestas anteriores (¡sea lo más preciso posible!)' \u2192 'Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers (be as precise as possible!)'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Calcule cuántas de estas personas experimentan mejor calidad de vida al trabajar directa o indirectamente para beneficiar a las partes interesadas de la comunidad indicadas en las respuestas anteriores (¡sea lo más preciso posible!)' \u2192 'Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers (be as precise as possible!)'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Si respondió Más de 1000, calcule el número exacto.' \u2192 'If you answered More than 1000, calculate the exact number.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Si respondió Más de 1000, calcule el número exacto.' \u2192 'If you answered More than 1000, calculate the exact number.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuál es su enfoque de negocio sustentable en cuanto al cuidado del medio ambiente?' \u2192 'What is your sustainable business approach regarding environmental care?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuál es su enfoque de negocio sustentable en cuanto al cuidado del medio ambiente?' \u2192 'What is your sustainable business approach regarding environmental care?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Qué prácticas de sostenibilidad ambiental ha incorporado a su negocio?' \u2192 'What environmental sustainability practices have you incorporated into your business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Qué prácticas de sostenibilidad ambiental ha incorporado a su negocio?' \u2192 'What environmental sustainability practices have you incorporated into your business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué medida está de acuerdo con la siguiente afirmación?
+
+Mi experiencia con Aspire - Sinapis (durante el programa y post-programa de ex alumnos) sigue teniendo un impacto significativo en los resultados de mi negocio actual.' \u2192 'To what extent do you agree with the following statement?
+
+My experience with Aspire - Sinapis (during the program and post-program as an alumni) continues to have a significant impact on the results of my current business.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué medida está de acuerdo con la siguiente afirmación?
+
+Mi experiencia con Aspire - Sinapis (durante el programa y post-programa de ex alumnos) sigue teniendo un impacto significativo en los resultados de mi negocio actual.' \u2192 'To what extent do you agree with the following statement?
+
+My experience with Aspire - Sinapis (during the program and post-program as an alumni) continues to have a significant impact on the results of my current business.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué medida está de acuerdo con la afirmación?
+
+CMF Marketplace México - Sinapis salvó mi negocio del fracaso.' \u2192 'To what extent do you agree with the statement?
+
+CMF Marketplace Mexico - Sinapis saved my business from failure.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué medida está de acuerdo con la afirmación?
+
+CMF Marketplace México - Sinapis salvó mi negocio del fracaso.' \u2192 'To what extent do you agree with the statement?
+
+CMF Marketplace Mexico - Sinapis saved my business from failure.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cómo se siente al pagar o aceptar un soborno?' \u2192 'How does it feel to pay or accept a bribe?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cómo se siente al pagar o aceptar un soborno?' \u2192 'How does it feel to pay or accept a bribe?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Desde que completó el programa CMF Marketplace México - Sinapis, ¿le han pedido que pague o acepte algún soborno?' \u2192 'Since completing the CMF Marketplace Mexico - Sinapis program, have you been asked to pay or accept any bribes?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Desde que completó el programa CMF Marketplace México - Sinapis, ¿le han pedido que pague o acepte algún soborno?' \u2192 'Since completing the CMF Marketplace Mexico - Sinapis program, have you been asked to pay or accept any bribes?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Cuántas veces se negó a pagar o aceptar un soborno como resultado directo de su experiencia con CMF Marketplace México - Sinapis?' \u2192 'How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico - Sinapis?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Cuántas veces se negó a pagar o aceptar un soborno como resultado directo de su experiencia con CMF Marketplace México - Sinapis?' \u2192 'How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico - Sinapis?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿Tiene algún comentario que le gustaría compartir sobre cómo su experiencia con CMF Marketplace México - Sinapis ha seguido impactándolo a usted o a su negocio?' \u2192 'Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico - Sinapis has continued to impact you or your business?'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿Tiene algún comentario que le gustaría compartir sobre cómo su experiencia con CMF Marketplace México - Sinapis ha seguido impactándolo a usted o a su negocio?' \u2192 'Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico - Sinapis has continued to impact you or your business?'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '¿En qué áreas de su negocio está enfrentando más dificultades? ¿En qué áreas siente que necesita más capacitación? (Puede seleccionar más de una opción).' \u2192 'In which areas of your business are you facing the most difficulties? In which areas do you feel you need more training? (You can select more than one option).'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|¿En qué áreas de su negocio está enfrentando más dificultades? ¿En qué áreas siente que necesita más capacitación? (Puede seleccionar más de una opción).' \u2192 'In which areas of your business are you facing the most difficulties? In which areas do you feel you need more training? (You can select more than one option).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Por favor escriba su nombre completo.' \u2192 'Please write your full name.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Por favor escriba su nombre completo.' \u2192 'Please write your full name.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Por favor, comparta el mejor número de teléfono para comunicarnos con usted.' \u2192 'Please share the best phone number to contact you.'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Por favor, comparta el mejor número de teléfono para comunicarnos con usted.' \u2192 'Please share the best phone number to contact you.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Comprendido qué es un negocio del Reino y/o podido describirlo a otros' \u2192 'Understood what a Kingdom business is and/or been able to describe it to others'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Comprendido qué es un negocio del Reino y/o podido describirlo a otros' \u2192 'Understood what a Kingdom business is and/or been able to describe it to others'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Recibido información sobre el Evangelio y querido saber más' \u2192 'Received information about the Gospel and wanted to know more'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Recibido información sobre el Evangelio y querido saber más' \u2192 'Received information about the Gospel and wanted to know more'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Pedido oración y/o orado contigo o con un colega' \u2192 'Prayer request and/or prayed with you or with a colleague'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Pedido oración y/o orado contigo o con un colega' \u2192 'Prayer request and/or prayed with you or with a colleague'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Llegado a ser creyentes en Jesucristo' \u2192 'Become believers in Jesus Christ'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Llegado a ser creyentes en Jesucristo' \u2192 'Become believers in Jesus Christ'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Desarrollado una relación más profunda con Jesús y otros creyentes' \u2192 'Developed a deeper relationship with Jesus and other believers'
+INFO:root:Header translated: 'Encuesta de Exalumnos, Sinapis 2025|Hasta donde usted sabe, como resultado directo de sus esfuerzos como empresario/negocio del Reino, calcule el número de personas que han:|Desarrollado una relación más profunda con Jesús y otros creyentes' \u2192 'Developed a deeper relationship with Jesus and other believers'
+INFO:root:New headers: ['respondentId', 'answeredAt', 'Do you give your consent for us to collect your data?', 'Do you currently have a business operating?', 'Please provide the name of your business', 'Did you found or co-found the business?', 'What is your position in the business?', 'In which sector does your business operate?', 'How would you classify the current stage of your business?', 'Is your company officially registered with the SAT?', 'During the past year, how much revenue (sales/turnover) did your company generate PER MONTH? If you have a business but are not generating revenue yet, write 0. Use the local currency.', 'Does the previous number represent an increase or a decrease in your business income compared to the previous year?', 'If you answered Increased or Decreased, can you estimate by how much it increased or decreased?', 'Did you hire new people compared to last year?', 'If the answer is yes, how many more people did you hire?', "How many full-time paid employees, including yourself, do you currently have? (an estimate is fine). If it's just you, please put 1.", 'How many PART-TIME paid employees (including casual workers) do you currently have? (an estimate is fine).', 'Did you raise external investments for your business in the past through family, friends, financial institutions, or other sources of investment capital? If so, how much? Calculate the exact accumulated investment (in local currency). DO NOT include your own savings (an estimate is fine).', 'Does your company work directly or indirectly with your community and/or your supply chains?', 'In which of the following ways does your company work with the community/supply chain?', 'If possible, please explain in more detail how your company is related to the community/supply chain.', 'Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers (be as precise as possible!)', 'If you answered More than 1000, calculate the exact number.', 'What is your sustainable business approach regarding environmental care?', 'What environmental sustainability practices have you incorporated into your business?', 'To what extent do you agree with the following statement?\n\nMy experience with Aspire - Sinapis (during the program and post-program as an alumni) continues to have a significant impact on the results of my current business.', 'To what extent do you agree with the statement?\n\nCMF Marketplace Mexico - Sinapis saved my business from failure.', 'How does it feel to pay or accept a bribe?', 'Since completing the CMF Marketplace Mexico - Sinapis program, have you been asked to pay or accept any bribes?', 'How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico - Sinapis?', 'Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico - Sinapis has continued to impact you or your business?', 'In which areas of your business are you facing the most difficulties? In which areas do you feel you need more training? (You can select more than one option).', 'Please write your full name.', 'Please share the best phone number to contact you.', 'Understood what a Kingdom business is and/or been able to describe it to others', 'Received information about the Gospel and wanted to know more', 'Prayer request and/or prayed with you or with a colleague', 'Become believers in Jesus Christ', 'Developed a deeper relationship with Jesus and other believers']
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Sí' \u2192 'Yes'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'No' \u2192 'No'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Director Ejecutivo/Presidente' \u2192 'Chief Executive Officer/President'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Otro' \u2192 'Another'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Empleado' \u2192 'Employee'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Otra Posición Ejecutiva' \u2192 'Another Executive Position'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Servicios y Consultoría' \u2192 'Services and Consulting'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Comercializacion de Productos' \u2192 'Product Marketing'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Médico: Asistencia Sanitaria, Equipamiento, Farmacia.' \u2192 'Doctor: Health Care, Equipment, Pharmacy.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Moda y Confección' \u2192 'Fashion and Clothing'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Tecnologías de la información y las Comunicaciones' \u2192 'Information and Communication Technologies'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Fabricación: Automotriz, Madera, Textil.' \u2192 'Manufacturing: Automotive, Wood, Textile.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Financiero' \u2192 'Financial'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Energía: Petróleo, Solar, Electricidad.' \u2192 'Energy: Oil, Solar, Electricity.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Sector Informal' \u2192 'Informal Sector'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Agricultura / Agroprocesamiento' \u2192 'Agriculture / Agroprocessing'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Identificación del problema: Identificó un problema, pero aún no tiene una idea para la solución.' \u2192 'Problem identification: You have identified a problem, but you do not yet have an idea for the solution.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Tracción/ingresos tempranos del cliente: producto en mercados pequeños, que genera ingresos tempranos y es probable que esté realizando las primeras contrataciones de personal.' \u2192 'Customer traction/early revenue: product in small markets, generating early revenue and likely making initial hires.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Crecimiento rápido: viendo una demanda de clientes fuerte y constante, generando ingresos significativos y un flujo de caja positivo. ' \u2192 'Rapid growth: observing a strong and steady customer demand, generating significant revenue and positive cash flow.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Solidificando operaciones: adquiriendo más clientes, realizando contrataciones clave de alto nivel y avanzando hacia un flujo de caja positivo.' \u2192 'Solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Empezando a ver una fuerte tracción en los ingresos: el producto o servicio se vende de manera constante, genera ingresos y genera contrataciones clave.' \u2192 'Starting to see strong traction in revenue: the product or service is selling consistently, generating income, and securing key hires.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Idea/Concepto: Formó una idea, pero aún no ha construido un prototipo ni ha llevado su producto/servicio al mercado.' \u2192 'Idea/Concept: He formed an idea, but has not yet built a prototype or taken his product/service to the market.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Fallido' \u2192 'Failed'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '0' \u2192 '0'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '0.00' \u2192 '0.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$250,000 pesos mensuales' \u2192 '$250,000 pesos per month'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '8,000' \u2192 '8,000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$250.000 al mes' \u2192 '$250,000 per month'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$40,000.00' \u2192 '$40,000.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Estoy apenas checando esto de el año y lo k genera ' \u2192 'I'm just checking this out from the year and what it generates'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1512871.46' \u2192 '1,512,871.46'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$60000.00' \u2192 '$60,000.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'no aplica' \u2192 'N/A'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '20000' \u2192 '20,000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '30k' \u2192 '30k'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$250 mil pesos' \u2192 '$250 million pesos'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '4000' \u2192 '4000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$4950 durante cuatro meses, pues fluctúa la cantidad.' \u2192 '$4950 over four months, as the amount fluctuates.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '35 mil' \u2192 '35 thousand'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Disminuyó' \u2192 'It decreased'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Aumentó' \u2192 'Increased'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '80%' \u2192 '80%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Sí  un 25% aproximadamente.' \u2192 'Yes, around 25%.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '25%' \u2192 '25%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '12%' \u2192 '12%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '$10000.00' \u2192 '$10000.00'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '6%' \u2192 '6%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'disminuyó la facturación Pero es más rentable' \u2192 'revenue decreased But it is more profitable'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '2000' \u2192 '2000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'En 2023 percibí $2925 durante 5 meses y también la cantidad era variable.' \u2192 'In 2023 I received $2925 for 5 months and the amount was also variable.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '5%' \u2192 '5%'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '2' \u2192 '2'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '2 personas' \u2192 '2 people'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1' \u2192 '1'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1 diseñador' \u2192 '1 designer'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'solo tengo una persona' \u2192 'I only have one person'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '3' \u2192 '3'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '10 empleados' \u2192 '10 employees'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '10' \u2192 '10'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '5' \u2192 '5'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Varia' \u2192 'Various'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1 empleado' \u2192 '1 employee'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '4' \u2192 '4'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '8' \u2192 '8'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '10000' \u2192 '10,000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'si aun no la tengo completa' \u2192 'if I don't have it complete yet'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'no' \u2192 'no'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1000' \u2192 '1000'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'No. Todo lo invertí con el dinero de mi negocio y de mi otro trabajo.' \u2192 'No. I invested everything with the money from my business and my other job.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Compra directamente a una cooperativa propiedad de productores o a un grupo comunitario que son los principales proveedores de insumos para su negocio (por ejemplo, agricultores o cooperativas artesanales).' \u2192 'Buy directly from a cooperative owned by producers or a community group that are the main suppliers of inputs for your business (for example, farmers or artisan cooperatives).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Apoya a los productores primarios con insumos subsidiados y capacitación con el objetivo de que eventualmente compren sus productos o encuentren un mercado para ellos.' \u2192 'Support primary producers with subsidized inputs and training with the aim of eventually buying their products or finding a market for them.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Compra regularmente a personas informales que brindan servicios/productos para su negocio (por ejemplo, artesanos, repartidores, etc).' \u2192 'Regularly purchase from informal individuals who provide services/products for your business (e.g. artisans, delivery persons, etc.).'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Son productos de belleza, limpieza e higiene personal ' \u2192 'They are beauty, cleaning, and personal hygiene products'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Proporcionamos tortilla y alimentos de calidad a nuestra comunidad ' \u2192 'We provide quality tortillas and food to our community'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'En la venta de tortilla y alimentos de calidad.' \u2192 'In the sale of tortillas and quality food.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'no aplica para mi la pregunta anterior' \u2192 'The previous question does not apply to me.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Toda la materia prima viene de comercios locales ' \u2192 'All the raw material comes from local businesses'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'somos una parte medular en la construcción de un inmueble' \u2192 'We are a key part in the construction of a property.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Solo pongo a la venta mis productos y posteriormente daré clases para elaborar mis artículos ya que hay interés por parte de la gente ' \u2192 'I will only sell my products and later I will give classes to make my items since there is interest from people.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'El idioma crea la necesidad de comunicarse con los misioneros de la Iglesia. Los alumnos que ya están, lo ponen en práctica y, de ese modo, se está mencionando la posibilidad de viajar al extranjero en un futuro.' \u2192 'The language creates the need to communicate with the missionaries of the Church. The students who are already there put it into practice and, in this way, the possibility of traveling abroad in the future is being mentioned.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Estoy ansioso por aprender más sobre esto.' \u2192 'I am eager to learn more about this.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Entiendo y aplico los principios ambientales.' \u2192 'I understand and apply environmental principles.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Conozco términos técnicos ambientales como economia circular, huella de carbono, gestión responsable de residuos, financiación verde, etc.' \u2192 'I am familiar with environmental technical terms such as circular economy, carbon footprint, responsible waste management, green financing, etc.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Conservar el agua,Energías renovables o Eficiencia energética' \u2192 'Preserve water, Renewable energies or Energy efficiency'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Obtener materiales o embalajes sostenibles' \u2192 'Obtain sustainable materials or packaging'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Energías renovables o Eficiencia energética' \u2192 'Renewable energies or Energy efficiency'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Gestión responsable de residuos' \u2192 'Responsible waste management'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Circularidad (reducir, reutilizar y reciclar)' \u2192 'Circularity (reduce, reuse, and recycle)'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Circularidad (reducir, reutilizar y reciclar),Conservar el agua' \u2192 'Circularity (reduce, reuse, and recycle), Conserve water'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Circularidad (reducir, reutilizar y reciclar),Conservar el agua,Energías renovables o Eficiencia energética' \u2192 'Circularity (reduce, reuse, and recycle), Conserve water, Renewable energies or Energy efficiency'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Neutral' \u2192 'Neutral'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'De acuerdo' \u2192 'Agreed'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Totalmente de acuerdo' \u2192 'I totally agree'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'En desacuerdo' \u2192 'Disagree'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Totalmente en desacuerdo' \u2192 'Completely disagree'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Nunca acepto sobornos, y esto era algo que hacía incluso antes de CMF Marketplace México - Sinapis.' \u2192 'I never accept bribes, and this was something I did even before CMF Marketplace Mexico - Sinapis.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Nunca acepto sobornos y esto fue algo que aprendí durante CMF Marketplace México - Sinapis.' \u2192 'I never accept bribes and this was something I learned during CMF Marketplace Mexico - Sinapis.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Depende de la situación.' \u2192 'It depends on the situation.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Siempre/Cada vez' \u2192 'Always/Every time'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Nunca' \u2192 'Never'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'No, no tengo comentarios ' \u2192 'No, I have no comments'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Me ayudo a tener paz y amor por mi trabajo, permitiéndome entender que este negocio es también un medio para compartir la fe a nuestros clientes y empleados...' \u2192 'It helped me to have peace and love for my work, allowing me to understand that this business is also a means to share faith with our clients and employees...'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Me gusta que tengan follow up con los ex alumnos ' \u2192 'I like that they follow up with former students.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Siempre tienen disposición para asesorarme en temas requeridos, me ofrecen a seguir capacitandome, oren por mi y el negocio ' \u2192 'They always have the willingness to advise me on required topics, offer me the opportunity to continue training, pray for me and the business.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Todo ok' \u2192 'Everything is ok'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Estoy poniendo atención a lo que entra y sale económicamente! Y buscando una mejor calidad en mis servicios ' \u2192 'I am paying attention to what comes in and out economically! And looking for better quality in my services'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'La comunidad ha sido una muy buena herramienta para conectar y  desarrollarse ' \u2192 'The community has been a very good tool for connecting and developing.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Las enseñanzas del curso me han guiado a tomar mejores desiciones. ' \u2192 'The teachings of the course have guided me to make better decisions.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'si ! me estructura' \u2192 'Yes! I structure myself.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Justamente a finales de 2024 experimenté problemas al recibir mi salario en mi otro trabajo porque se atrasaron 4 meses y, al ver los números de este negocio, no había contemplado cuán respaldada he sido por la mano del Señor.' \u2192 'Just at the end of 2024, I experienced issues receiving my salary at my other job because it was delayed by 4 months, and when I looked at the numbers of this business, I hadn't realized how supported I have been by the hand of the Lord.'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'El tiempo que toman par orar por mi' \u2192 'The time they take to pray for me'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Finanzas (sistemas de organización) y planificación financiera del negocio,Implementacion de Tecnologias (Digitalizacion),Marketing y comunicacion de Valor,Planificación financiera personal/familiar,Ventas' \u2192 'Finance (organization systems) and business financial planning, Implementation of Technologies (Digitalization), Marketing and Value communication, Personal/family financial planning, Sales'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Implementacion de Tecnologias (Digitalizacion)' \u2192 'Implementation of Technologies (Digitization)'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Equilibrio entre el trabajo y la vida personal como emprendedor,Finanzas (sistemas de organización) y planificación financiera del negocio,Implementacion de Tecnologias (Digitalizacion),Impuestos,Marketing y comunicacion de Valor,Reclutamiento y seleccion de personal' \u2192 'Balance between work and personal life as an entrepreneur, Finance (organization systems) and business financial planning, Implementation of Technologies (Digitalization), Taxes, Marketing and Value communication, Recruitment and selection of personnel'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Marketing y comunicacion de Valor' \u2192 'Marketing and Value Communication'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Implementacion de Tecnologias (Digitalizacion),Impuestos,Reclutamiento y seleccion de personal' \u2192 'Implementation of Technologies (Digitization), Taxes, Recruitment and Selection of Personnel'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Reclutamiento y seleccion de personal' \u2192 'Recruitment and personnel selection'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Implementacion de Tecnologias (Digitalizacion),Ventas' \u2192 'Implementation of Technologies (Digitization), Sales'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Finanzas (sistemas de organización) y planificación financiera del negocio,Impuestos,Marketing y comunicacion de Valor' \u2192 'Finance (organization systems) and financial business planning, Taxes, Marketing and Value communication'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Marketing y comunicacion de Valor,Ventas' \u2192 'Marketing and Value Communication, Sales'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Equilibrio entre el trabajo y la vida personal como emprendedor,Finanzas (sistemas de organización) y planificación financiera del negocio,Implementacion de Tecnologias (Digitalizacion),Planificación financiera personal/familiar,Ventas' \u2192 'Balance between work and personal life as an entrepreneur, Finance (organization systems) and business financial planning, Implementation of Technologies (Digitalization), Personal/family financial planning, Sales'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Finanzas (sistemas de organización) y planificación financiera del negocio' \u2192 'Finance (organization systems) and financial planning for the business'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Planificación financiera personal/familiar,Usar mi negocio como un espacio para compartir mi fe y/o valores' \u2192 'Personal/family financial planning, Using my business as a space to share my faith and/or values'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Integrar mi fe y/o valores en las operaciones de mi negocio' \u2192 'Integrate my faith and/or values into the operations of my business'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Ventas' \u2192 'Sales'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Equilibrio entre el trabajo y la vida personal como emprendedor,Finanzas (sistemas de organización) y planificación financiera del negocio,Impuestos,Legal,Marketing y comunicacion de Valor,Planificación financiera personal/familiar,Ventas' \u2192 'Balance between work and personal life as an entrepreneur, Finance (organization systems) and business financial planning, Taxes, Legal, Marketing and Value communication, Personal/family financial planning, Sales'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Finanzas (sistemas de organización) y planificación financiera del negocio,Marketing y comunicacion de Valor' \u2192 'Finance (organization systems) and financial business planning, Marketing and Value communication'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: 'Más de 5' \u2192 'More than 5'
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Translated: '1-5' \u2192 '1-5'
