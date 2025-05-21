@@ -1,14 +1,10 @@
-#Cleaning the 2 csv files
-
 import pandas as pd
 import re
 
 # Load the CSV files
 seed = pd.read_csv('EFI_seed_order1.csv')
-alumni = pd.read_csv('CMF_alumni_survey_spanish1.csv')
 
 #Cleaning the seed csv file
-
 # New column names
 new_columns = [
     'respondentId',
@@ -34,19 +30,19 @@ seed.columns = new_columns
 seed = seed.drop(columns=['remove_me'])
 
 
-# Save cleaned data
-#seed.to_csv('EFI_seed_order1.csv', index=False)
-
 
 #cleaning the kg columns
 def clean_quantity(quantity):
     if pd.isna(quantity):
         return 0
     quantity = str(quantity).strip().lower()
+
     # Remove currency symbols, text, and commas
     quantity = re.sub(r'[^\d.]', '', quantity)
+
     # Extract first number
     match = re.search(r'(\d+\.?\d*)', quantity)
+
     return float(match.group(1)) if match else 0
 
 seed['maize_kg'] = seed['maize_kg'].apply(clean_quantity)

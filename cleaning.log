@@ -1,0 +1,322 @@
+2025-05-21 16:02:01,172 - INFO - Original data shape: (18, 39)
+2025-05-21 16:02:01,174 - INFO - Successfully cleaned column: respondentId
+2025-05-21 16:02:01,174 - INFO - Successfully cleaned column: answeredAt
+2025-05-21 16:02:01,174 - INFO - Successfully cleaned column: Do you give your consent for us to collect your data
+2025-05-21 16:02:01,175 - INFO - Successfully cleaned column: Do you currently have a business operating
+2025-05-21 16:02:01,175 - INFO - Successfully cleaned column: Please provide the name of your business
+2025-05-21 16:02:01,175 - INFO - Successfully cleaned column: Did you found or cofound the business
+2025-05-21 16:02:01,175 - INFO - Successfully cleaned column: What is your position in the business
+2025-05-21 16:02:01,177 - INFO - Successfully cleaned column: In which sector does your business operate
+2025-05-21 16:02:01,177 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:02:01,177 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:02:01,178 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:02:01,178 - INFO - Successfully cleaned column: How would you classify the current stage of your business
+2025-05-21 16:02:01,178 - INFO - Successfully cleaned column: Is your company officially registered with the SAT
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: 250000peo
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: 250000peo
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: msesooeeeees
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: 250o
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: 4950oeoosseoes.
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: 35os
+2025-05-21 16:02:01,178 - INFO - Successfully cleaned column: During the past year how much revenue salesturnover did your company generate PER MONTH If you have a business but have not generated any revenue yet please write 0 Use the local currency
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: eese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: eese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - WARNING - Could not convert currency value: ese
+2025-05-21 16:02:01,178 - INFO - Successfully cleaned column: Does the previous number represent an increase or a decrease in your business income compared to the previous year
+2025-05-21 16:02:01,178 - INFO - Successfully cleaned column: If you answered Increased or Decreased can you estimate by how much it increased or decreased
+2025-05-21 16:02:01,180 - INFO - Successfully cleaned column: Did you hire new people compared to last year
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 2 people
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: i only have one person
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 3
+2025-05-21 16:02:01,180 - INFO - Successfully cleaned column: If the answer is yes how many more people did you hire
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 3
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 2 people
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 5
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:02:01,180 - INFO - Successfully cleaned column: How many fulltime paid employees including yourself do you currently have An estimate is fine If its just you please put 1
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: various
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 4
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 4
+2025-05-21 16:02:01,180 - WARNING - Unclear yes/no value: 8
+2025-05-21 16:02:01,181 - INFO - Successfully cleaned column: How many PARTTIME paid employees including casual workers do you currently have an estimate is fine
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: oeopeee
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o.eseeeeoeosessoeo.
+2025-05-21 16:02:01,181 - WARNING - Could not convert currency value: o
+2025-05-21 16:02:01,181 - INFO - Successfully cleaned column: Did you raise external investments for your business in the past through family friends financial institutions or other sources of investment capital If so how much Calculate the exact accumulated investment in local currency DO NOT include your own savings an estimate is fine
+2025-05-21 16:02:01,181 - INFO - Successfully cleaned column: Does your company work directly or indirectly with your community andor your supply chains
+2025-05-21 16:02:01,181 - INFO - Successfully cleaned column: In which of the following ways does your company work with the communitysupply chain
+2025-05-21 16:02:01,182 - INFO - Successfully cleaned column: If possible please explain in more detail how your company is related to the communitysupply chain
+2025-05-21 16:02:01,182 - INFO - Successfully cleaned column: Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers be as precise as possible
+2025-05-21 16:02:01,182 - INFO - Successfully cleaned column: If you answered More than 1000 calculate the exact number
+2025-05-21 16:02:01,182 - INFO - Successfully cleaned column: What is your sustainable business approach regarding environmental care
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: preserve water, renewable energies or energy efficiency
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: preserve water, renewable energies or energy efficiency
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: obtain sustainable materials or packaging
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: renewable energies or energy efficiency
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: responsible waste management
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: circularity (reduce, reuse, and recycle)
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: circularity (reduce, reuse, recycle), conserve water
+2025-05-21 16:02:01,182 - WARNING - Unclear yes/no value: circularity (reduce, reuse, and recycle), conserve water, renewable energies or energy efficiency
+2025-05-21 16:02:01,183 - INFO - Successfully cleaned column: What environmental sustainability practices have you incorporated into your business
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - INFO - Successfully cleaned column: To what extent do you agree with the following statement My experience with Aspire  Sinapis during the program and postprogram as an alumni continues to have a significant impact on the results of my current business
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: disagree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: completely disagree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: disagree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,183 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:02:01,184 - INFO - Successfully cleaned column: To what extent do you agree with the statement CMF Marketplace Mexico  Sinapis saved my business from failure
+2025-05-21 16:02:01,184 - WARNING - Unclear yes/no value: it depends on the situation.
+2025-05-21 16:02:01,184 - INFO - Successfully cleaned column: How does it feel to pay or accept a bribe
+2025-05-21 16:02:01,184 - INFO - Successfully cleaned column: Since completing the CMF Marketplace Mexico  Sinapis program have you been asked to pay or accept any bribes
+2025-05-21 16:02:01,184 - INFO - Successfully cleaned column: How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico  Sinapis
+2025-05-21 16:02:01,184 - WARNING - Unclear yes/no value: it helped me to have peace and love for my work, allowing me to understand that this business is also a means to share faith with our clients and employees...
+2025-05-21 16:02:01,184 - WARNING - Unclear yes/no value: i like that they follow up with former students.
+2025-05-21 16:02:01,184 - WARNING - Unclear yes/no value: i am paying attention to what comes in and out economically! and seeking better quality in my services
+2025-05-21 16:02:01,184 - INFO - Successfully cleaned column: Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico  Sinapis has continued to impact you or your business
+2025-05-21 16:02:01,185 - INFO - Successfully cleaned column: In which areas of your business are you facing the most difficulties In which areas do you feel you need more training You can select more than one option
+2025-05-21 16:02:01,185 - INFO - Successfully cleaned column: Please write your full name
+2025-05-21 16:02:01,185 - INFO - Successfully cleaned column: Please share the best phone number to contact you
+2025-05-21 16:02:01,185 - INFO - Successfully cleaned column: Understood what a Kingdom business is andor been able to describe it to others
+2025-05-21 16:02:01,185 - WARNING - Unclear yes/no value: more than 5
+2025-05-21 16:02:01,185 - WARNING - Unclear yes/no value: more than 5
+2025-05-21 16:02:01,185 - WARNING - Unclear yes/no value: more than 5
+2025-05-21 16:02:01,185 - INFO - Successfully cleaned column: Received information about the Gospel and wanted to know more
+2025-05-21 16:02:01,186 - INFO - Successfully cleaned column: Prayer request andor prayed with you or a colleague
+2025-05-21 16:02:01,186 - INFO - Successfully cleaned column: Become believers in Jesus Christ
+2025-05-21 16:02:01,186 - INFO - Successfully cleaned column: Developed a deeper relationship with Jesus and other believers
+2025-05-21 16:02:01,193 - INFO - Saved cleaned data ((18, 39)) to CMF_alumni_survey_english_CLEANED.csv
+2025-05-21 16:06:34,192 - INFO - Original data shape: (18, 39)
+2025-05-21 16:06:34,193 - INFO - Successfully cleaned column: respondentId
+2025-05-21 16:06:34,193 - INFO - Successfully cleaned column: answeredAt
+2025-05-21 16:06:34,193 - INFO - Successfully cleaned column: Do you give your consent for us to collect your data
+2025-05-21 16:06:34,194 - INFO - Successfully cleaned column: Do you currently have a business operating
+2025-05-21 16:06:34,194 - INFO - Successfully cleaned column: Please provide the name of your business
+2025-05-21 16:06:34,194 - INFO - Successfully cleaned column: Did you found or cofound the business
+2025-05-21 16:06:34,194 - INFO - Successfully cleaned column: What is your position in the business
+2025-05-21 16:06:34,195 - INFO - Successfully cleaned column: In which sector does your business operate
+2025-05-21 16:06:34,195 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:06:34,195 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:06:34,195 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:06:34,195 - INFO - Successfully cleaned column: How would you classify the current stage of your business
+2025-05-21 16:06:34,196 - INFO - Successfully cleaned column: Is your company officially registered with the SAT
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: 250000peo
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: 250000peo
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: msesooeeeees
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: 250o
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: 4950oeoosseoes.
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: 35os
+2025-05-21 16:06:34,196 - INFO - Successfully cleaned column: During the past year how much revenue salesturnover did your company generate PER MONTH If you have a business but have not generated any revenue yet please write 0 Use the local currency
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: eese
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,196 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,197 - WARNING - Could not convert currency value: eese
+2025-05-21 16:06:34,197 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,197 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,197 - WARNING - Could not convert currency value: ese
+2025-05-21 16:06:34,197 - INFO - Successfully cleaned column: Does the previous number represent an increase or a decrease in your business income compared to the previous year
+2025-05-21 16:06:34,197 - INFO - Successfully cleaned column: If you answered Increased or Decreased can you estimate by how much it increased or decreased
+2025-05-21 16:06:34,197 - INFO - Successfully cleaned column: Did you hire new people compared to last year
+2025-05-21 16:06:34,197 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:06:34,197 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:06:34,197 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:06:34,197 - WARNING - Unclear yes/no value: 2 people
+2025-05-21 16:06:34,197 - WARNING - Unclear yes/no value: i only have one person
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 3
+2025-05-21 16:06:34,198 - INFO - Successfully cleaned column: If the answer is yes how many more people did you hire
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 3
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 2 people
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 5
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 2
+2025-05-21 16:06:34,198 - INFO - Successfully cleaned column: How many fulltime paid employees including yourself do you currently have An estimate is fine If its just you please put 1
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: various
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 4
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 4
+2025-05-21 16:06:34,198 - WARNING - Unclear yes/no value: 8
+2025-05-21 16:06:34,199 - INFO - Successfully cleaned column: How many PARTTIME paid employees including casual workers do you currently have an estimate is fine
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: oeopeee
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o.eseeeeoeosessoeo.
+2025-05-21 16:06:34,199 - WARNING - Could not convert currency value: o
+2025-05-21 16:06:34,199 - INFO - Successfully cleaned column: Did you raise external investments for your business in the past through family friends financial institutions or other sources of investment capital If so how much Calculate the exact accumulated investment in local currency DO NOT include your own savings an estimate is fine
+2025-05-21 16:06:34,199 - INFO - Successfully cleaned column: Does your company work directly or indirectly with your community andor your supply chains
+2025-05-21 16:06:34,200 - INFO - Successfully cleaned column: In which of the following ways does your company work with the communitysupply chain
+2025-05-21 16:06:34,200 - INFO - Successfully cleaned column: If possible please explain in more detail how your company is related to the communitysupply chain
+2025-05-21 16:06:34,200 - INFO - Successfully cleaned column: Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers be as precise as possible
+2025-05-21 16:06:34,200 - INFO - Successfully cleaned column: If you answered More than 1000 calculate the exact number
+2025-05-21 16:06:34,200 - INFO - Successfully cleaned column: What is your sustainable business approach regarding environmental care
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: preserve water, renewable energies or energy efficiency
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: preserve water, renewable energies or energy efficiency
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: obtain sustainable materials or packaging
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: renewable energies or energy efficiency
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: responsible waste management
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: circularity (reduce, reuse, and recycle)
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: circularity (reduce, reuse, recycle), conserve water
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: circularity (reduce, reuse, and recycle), conserve water, renewable energies or energy efficiency
+2025-05-21 16:06:34,201 - INFO - Successfully cleaned column: What environmental sustainability practices have you incorporated into your business
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,201 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,202 - INFO - Successfully cleaned column: To what extent do you agree with the following statement My experience with Aspire  Sinapis during the program and postprogram as an alumni continues to have a significant impact on the results of my current business
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: disagree
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: agreed
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: completely disagree
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: disagree
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,202 - WARNING - Unclear yes/no value: i totally agree
+2025-05-21 16:06:34,203 - INFO - Successfully cleaned column: To what extent do you agree with the statement CMF Marketplace Mexico  Sinapis saved my business from failure
+2025-05-21 16:06:34,203 - WARNING - Unclear yes/no value: it depends on the situation.
+2025-05-21 16:06:34,203 - INFO - Successfully cleaned column: How does it feel to pay or accept a bribe
+2025-05-21 16:06:34,203 - INFO - Successfully cleaned column: Since completing the CMF Marketplace Mexico  Sinapis program have you been asked to pay or accept any bribes
+2025-05-21 16:06:34,203 - INFO - Successfully cleaned column: How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico  Sinapis
+2025-05-21 16:06:34,203 - WARNING - Unclear yes/no value: it helped me to have peace and love for my work, allowing me to understand that this business is also a means to share faith with our clients and employees...
+2025-05-21 16:06:34,203 - WARNING - Unclear yes/no value: i like that they follow up with former students.
+2025-05-21 16:06:34,203 - WARNING - Unclear yes/no value: i am paying attention to what comes in and out economically! and seeking better quality in my services
+2025-05-21 16:06:34,204 - INFO - Successfully cleaned column: Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico  Sinapis has continued to impact you or your business
+2025-05-21 16:06:34,204 - INFO - Successfully cleaned column: In which areas of your business are you facing the most difficulties In which areas do you feel you need more training You can select more than one option
+2025-05-21 16:06:34,204 - INFO - Successfully cleaned column: Please write your full name
+2025-05-21 16:06:34,204 - INFO - Successfully cleaned column: Please share the best phone number to contact you
+2025-05-21 16:06:34,205 - INFO - Successfully cleaned column: Understood what a Kingdom business is andor been able to describe it to others
+2025-05-21 16:06:34,205 - WARNING - Unclear yes/no value: more than 5
+2025-05-21 16:06:34,205 - WARNING - Unclear yes/no value: more than 5
+2025-05-21 16:06:34,205 - WARNING - Unclear yes/no value: more than 5
+2025-05-21 16:06:34,205 - INFO - Successfully cleaned column: Received information about the Gospel and wanted to know more
+2025-05-21 16:06:34,205 - INFO - Successfully cleaned column: Prayer request andor prayed with you or a colleague
+2025-05-21 16:06:34,205 - INFO - Successfully cleaned column: Become believers in Jesus Christ
+2025-05-21 16:06:34,206 - INFO - Successfully cleaned column: Developed a deeper relationship with Jesus and other believers
+2025-05-21 16:06:34,212 - INFO - Saved cleaned data ((18, 39)) to CMF_alumni_survey_english_CLEANED.csv
+2025-05-21 16:08:43,568 - INFO - Original data shape: (18, 39)
+2025-05-21 16:08:43,570 - INFO - Successfully cleaned column: respondentId
+2025-05-21 16:08:43,570 - INFO - Successfully cleaned column: answeredAt
+2025-05-21 16:08:43,571 - INFO - Successfully cleaned column: Do you give your consent for us to collect your data
+2025-05-21 16:08:43,571 - INFO - Successfully cleaned column: Do you currently have a business operating
+2025-05-21 16:08:43,571 - INFO - Successfully cleaned column: Please provide the name of your business
+2025-05-21 16:08:43,571 - INFO - Successfully cleaned column: Did you found or cofound the business
+2025-05-21 16:08:43,571 - INFO - Successfully cleaned column: What is your position in the business
+2025-05-21 16:08:43,572 - INFO - Successfully cleaned column: In which sector does your business operate
+2025-05-21 16:08:43,572 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:08:43,572 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:08:43,572 - WARNING - Unrecognized stage description: solidifying operations: acquiring more clients, making key high-level hires, and moving towards a positive cash flow.
+2025-05-21 16:08:43,572 - INFO - Successfully cleaned column: How would you classify the current stage of your business
+2025-05-21 16:08:43,573 - INFO - Successfully cleaned column: Is your company officially registered with the SAT
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: 250000peo
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: 250000peo
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: msesooeeeees
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: 250o
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: 4950oeoosseoes.
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: 35os
+2025-05-21 16:08:43,574 - INFO - Successfully cleaned column: During the past year how much revenue salesturnover did your company generate PER MONTH If you have a business but have not generated any revenue yet please write 0 Use the local currency
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: eese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: eese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - WARNING - Could not convert currency value: ese
+2025-05-21 16:08:43,574 - INFO - Successfully cleaned column: Does the previous number represent an increase or a decrease in your business income compared to the previous year
+2025-05-21 16:08:43,575 - INFO - Successfully cleaned column: If you answered Increased or Decreased can you estimate by how much it increased or decreased
+2025-05-21 16:08:43,575 - INFO - Successfully cleaned column: Did you hire new people compared to last year
+2025-05-21 16:08:43,575 - INFO - Successfully cleaned column: If the answer is yes how many more people did you hire
+2025-05-21 16:08:43,575 - INFO - Successfully cleaned column: How many fulltime paid employees including yourself do you currently have An estimate is fine If its just you please put 1
+2025-05-21 16:08:43,575 - INFO - Successfully cleaned column: How many PARTTIME paid employees including casual workers do you currently have an estimate is fine
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: oeopeee
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o.eseeeeoeosessoeo.
+2025-05-21 16:08:43,576 - WARNING - Could not convert currency value: o
+2025-05-21 16:08:43,576 - INFO - Successfully cleaned column: Did you raise external investments for your business in the past through family friends financial institutions or other sources of investment capital If so how much Calculate the exact accumulated investment in local currency DO NOT include your own savings an estimate is fine
+2025-05-21 16:08:43,576 - INFO - Successfully cleaned column: Does your company work directly or indirectly with your community andor your supply chains
+2025-05-21 16:08:43,576 - INFO - Successfully cleaned column: In which of the following ways does your company work with the communitysupply chain
+2025-05-21 16:08:43,577 - INFO - Successfully cleaned column: If possible please explain in more detail how your company is related to the communitysupply chain
+2025-05-21 16:08:43,577 - INFO - Successfully cleaned column: Calculate how many of these people experience a better quality of life by working directly or indirectly to benefit the stakeholders of the community indicated in the previous answers be as precise as possible
+2025-05-21 16:08:43,577 - INFO - Successfully cleaned column: If you answered More than 1000 calculate the exact number
+2025-05-21 16:08:43,578 - INFO - Successfully cleaned column: What is your sustainable business approach regarding environmental care
+2025-05-21 16:08:43,578 - INFO - Successfully cleaned column: What environmental sustainability practices have you incorporated into your business
+2025-05-21 16:08:43,578 - INFO - Successfully cleaned column: To what extent do you agree with the following statement My experience with Aspire  Sinapis during the program and postprogram as an alumni continues to have a significant impact on the results of my current business
+2025-05-21 16:08:43,578 - INFO - Successfully cleaned column: To what extent do you agree with the statement CMF Marketplace Mexico  Sinapis saved my business from failure
+2025-05-21 16:08:43,579 - INFO - Successfully cleaned column: How does it feel to pay or accept a bribe
+2025-05-21 16:08:43,579 - INFO - Successfully cleaned column: Since completing the CMF Marketplace Mexico  Sinapis program have you been asked to pay or accept any bribes
+2025-05-21 16:08:43,579 - INFO - Successfully cleaned column: How many times did you refuse to pay or accept a bribe as a direct result of your experience with CMF Marketplace Mexico  Sinapis
+2025-05-21 16:08:43,579 - INFO - Successfully cleaned column: Do you have any comments you would like to share about how your experience with CMF Marketplace Mexico  Sinapis has continued to impact you or your business
+2025-05-21 16:08:43,579 - INFO - Successfully cleaned column: In which areas of your business are you facing the most difficulties In which areas do you feel you need more training You can select more than one option
+2025-05-21 16:08:43,580 - INFO - Successfully cleaned column: Please write your full name
+2025-05-21 16:08:43,580 - INFO - Successfully cleaned column: Please share the best phone number to contact you
+2025-05-21 16:08:43,580 - INFO - Successfully cleaned column: Understood what a Kingdom business is andor been able to describe it to others
+2025-05-21 16:08:43,580 - INFO - Successfully cleaned column: Received information about the Gospel and wanted to know more
+2025-05-21 16:08:43,582 - INFO - Successfully cleaned column: Prayer request andor prayed with you or a colleague
+2025-05-21 16:08:43,582 - INFO - Successfully cleaned column: Become believers in Jesus Christ
+2025-05-21 16:08:43,582 - INFO - Successfully cleaned column: Developed a deeper relationship with Jesus and other believers
+2025-05-21 16:08:43,657 - INFO - Saved cleaned data ((18, 39)) to CMF_alumni_survey_english_CLEANED.csv
