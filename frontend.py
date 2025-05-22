@@ -29,12 +29,13 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-processor = Processor()
+processor = Processor("EFI_seed_cleaned.csv")
 
 st.title("Survey Bot")
 
 def get_response_and_data(user_input):
     response = processor.create_query(user_input)
+    print(response)
     data = processor.execute_query(response)
     
     return "Here's the response:", data
