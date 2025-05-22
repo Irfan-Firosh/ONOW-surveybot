@@ -5,8 +5,9 @@ import tempfile
 
 class DBGenerator:
     def __init__(self, csv_path):
-        self.csv_path = csv_path
+        self.csv_path = f'CleanedData/{csv_path}'
         self.db_path = os.path.splitext(csv_path)[0] + '.db'
+        self.db_path = f"CleanedData/{self.db_path}"
     
     def _create_temp_schema(self, df):
         """Creates a temporary schema file from DataFrame columns"""

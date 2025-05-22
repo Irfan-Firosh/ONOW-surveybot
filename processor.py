@@ -6,7 +6,7 @@ from langchain.chains import create_sql_query_chain
 from langchain_community.llms import OpenAI
 from langchain_community.utilities import SQLDatabase
 import pandas as pd
-from db_generate import convert_csv_to_sqlite
+from Preprocessor.db_generate import convert_csv_to_sqlite
 
 ADDITIONAL_INSTRUCTIONS = """Dont use any other columns except the ones provided in the database, 
 dont limit the number of rows you return, return all rows"""
@@ -14,7 +14,7 @@ dont limit the number of rows you return, return all rows"""
 class Processor:
     def __init__(self, path):
         load_dotenv()
-        temp_path = path.replace(".csv", ".db")
+        temp_path = f'CleanedData/{path.replace(".csv", ".db")}'
         if os.path.exists(temp_path):
             path = temp_path
         else:
