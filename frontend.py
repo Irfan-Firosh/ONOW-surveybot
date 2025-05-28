@@ -35,10 +35,10 @@ st.title("Survey Bot")
 
 def get_response_and_data(user_input):
     response = processor.create_query(user_input)
-    print(response)
+    #print(response)
     data = processor.execute_query(response)
     
-    return "Here's the response:", data
+    return response, data
 
 # Main chat interface
 if "messages" not in st.session_state:
@@ -50,18 +50,23 @@ with st.container():
             st.write(message["content"])
             if "data" in message:
                 st.dataframe(message["data"], use_container_width=True)
+            if "graph" in message:
+                st.plotly_chart(message["graph"], use_container_width=True)
 
     if prompt := st.chat_input("What would you like to know?"):
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.write(prompt)
         response_text, response_data = get_response_and_data(prompt)
+        graph = processor.get_graph(response_text)
         st.session_state.messages.append({
             "role": "assistant", 
-            "content": response_text,
-            "data": response_data
+            "content": "Here's the response:",
+            "data": response_data,
+            "graph": graph
         })
         with st.chat_message("assistant"):
             st.write(response_text)
             st.dataframe(response_data, use_container_width=True)
+            st.plotly_chart(graph, use_container_width=True)
 
