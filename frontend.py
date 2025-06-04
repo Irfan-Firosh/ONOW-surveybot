@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 from processor import Processor
+import os
 
 st.set_page_config(
     page_title="Survey Bot",
@@ -29,9 +30,22 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-processor = Processor("EFI_seed_cleaned.csv")
+
+def get_files():
+    files = os.listdir("CleanedData")
+    files_list = []
+    for file in files:
+        if file.endswith(".csv"):
+            files_list.append(file[:-4])
+    return files_list
+
 
 st.title("Survey Bot")
+
+
+
+processor = Processor("kc_house_data.csv")
+
 
 def get_response_and_data(user_input):
     response = processor.create_query(user_input)
@@ -51,22 +65,23 @@ with st.container():
             if "data" in message:
                 st.dataframe(message["data"], use_container_width=True)
             if "graph" in message:
-                st.plotly_chart(message["graph"], use_container_width=True)
+                st.plotly_chart(message["graph"], use_container_width=True, key=f"graph_{message['role']}_{len(st.session_state.messages)}")
 
     if prompt := st.chat_input("What would you like to know?"):
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.write(prompt)
         response_text, response_data = get_response_and_data(prompt)
-        graph = processor.get_graph(response_text)
+        graphs = processor.get_graph(response_text)
         st.session_state.messages.append({
             "role": "assistant", 
             "content": "Here's the response:",
             "data": response_data,
-            "graph": graph
+            "graph": graphs[0] if graphs else None  # Store first graph for backward compatibility
         })
         with st.chat_message("assistant"):
             st.write(response_text)
             st.dataframe(response_data, use_container_width=True)
-            st.plotly_chart(graph, use_container_width=True)
-
+            # Display all graphs with unique keys
+            for i, graph in enumerate(graphs):
+                st.plotly_chart(graph, use_container_width=True, key=f"graph_assistant_{len(st.session_state.messages)}_{i}")
