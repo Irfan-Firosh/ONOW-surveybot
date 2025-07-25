@@ -322,49 +322,6 @@ The API implements rate limiting to prevent abuse and ensure fair usage:
 }
 ```
 
-## Usage Examples
-
-### Process a Natural Language Query
-
-```bash
-curl -X POST "http://localhost:8000/api/surveybot/query" \
-     -H "Content-Type: application/json" \
-     -d '{
-       "query": "Show me all responses where people answered yes",
-       "survey_id": 3200079
-     }'
-```
-
-### Get Survey Summary
-
-```bash
-curl "http://localhost:8000/api/surveybot/surveys/3200079/summary"
-```
-
-### Get Survey Questions
-
-```bash
-curl "http://localhost:8000/api/surveybot/surveys/3200079/questions"
-```
-
-### Get Survey Data Information
-
-```bash
-curl "http://localhost:8000/api/surveybot/surveys/3200079/data"
-```
-
-### Refresh Survey Data
-
-```bash
-curl -X POST "http://localhost:8000/api/surveybot/surveys/3200079/refresh"
-```
-
-### Health Check
-
-```bash
-curl "http://localhost:8000/"
-```
-
 ## Environment Variables
 
 | Variable | Description | Default |
@@ -406,12 +363,6 @@ python run.py
 # Or directly with uvicorn
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
-
-### Running in Production
-
-```bash
-# Using uvicorn directly
-uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4
 
 # Using gunicorn (install with: pip install gunicorn)
 gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
