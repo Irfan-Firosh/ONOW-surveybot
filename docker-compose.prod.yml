@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+  surveybot-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: onow-surveybot-api-prod
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - RELOAD=false
+      - ENVIRONMENT=production
+    env_file:
+      - .env.prod
+    volumes:
+      - surveybot-data:/app/data
+      - ./logs:/app/logs
+      - ./CleanedData:/app/CleanedData
+      - ./RawData:/app/RawData
+      - ./Graph:/app/Graph
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - surveybot-network
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/tmp
+
+  nginx:
+    image: nginx:alpine
+    container_name: onow-surveybot-nginx-prod
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.prod.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+      - nginx-logs:/var/log/nginx
+    depends_on:
+      - surveybot-api
+    restart: unless-stopped
+    networks:
+      - surveybot-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+    security_opt:
+      - no-new-privileges:true
+
+networks:
+  surveybot-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+
+volumes:
+  surveybot-data:
+    driver: local
+  nginx-logs:
+    driver: local 
