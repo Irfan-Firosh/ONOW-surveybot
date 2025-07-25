@@ -245,7 +245,6 @@ class VisualizationRecommendation(BaseModel):
     recommendations: List[ChartConfig] = Field(description="List of recommended chart configurations")
     reasoning: str = Field(description="Explanation of why these charts were recommended")
 
-# --- Replace SQLiteAnalyzer with DataAnalyzer ---
 class DataAnalyzer:
     def __init__(self):
         self.llm = OpenAI(api_key=openai_api_key, temperature=0)
@@ -388,13 +387,13 @@ def generate_smart_visualizations(data: list, columns: list, user_query: str) ->
     return [chart_data["config"] for chart_data in result["charts"]]
 
 if __name__ == "__main__":
-    db_path = "/Users/irfanfirosh/Desktop/ONOW/ONOW-surveybot/survey_data.db"  # Path to your SQLite database
-    test_query = "How many responses are there?"
-    
-    custom_sql = "SELECT * FROM survey_3200079"
+    # Example usage - you would need to provide actual data
+    test_data = [{"x": 1, "y": 2}, {"x": 2, "y": 4}]
+    test_columns = ["x", "y"]
+    test_query = "Show me the relationship between x and y"
     
     system = SmartVisualizationSystem()
-    result = system.create_visualizations(data, columns, user_query)
+    result = system.create_visualizations(test_data, test_columns, test_query)
 
     for i, chart_data in enumerate(result['charts']):
         print(json.dumps(chart_data['config'], indent=2))

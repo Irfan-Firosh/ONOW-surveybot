@@ -3,6 +3,7 @@ import sqlite3
 import os
 from contextlib import contextmanager
 
+
 SURVEY_API_USERNAME = os.getenv("SURVEY_API_USERNAME")
 SURVEY_API_PASSWORD = os.getenv("SURVEY_API_PASSWORD")
 
@@ -155,8 +156,78 @@ def get_data_from_api(survey_id):
     except Exception as e:
         return None
 
+def extract_questions_from_survey_data(survey_data):
+    """
+    Extract all questions from survey API response
+    
+    Args:
+        survey_data: Response from survey API
+        
+    Returns:
+        List of question strings
+    """
+    try:
+        questions = []
+        
+        # Navigate to the survey data
+        if not survey_data.get("success"):
+            return questions
+            
+        survey = survey_data.get("data", {}).get("survey", {})
+        pages = survey.get("pages", [])
+        
+        for page in pages:
+            page_questions = page.get("questions", [])
+            for question in page_questions:
+                question_text = question.get("question", "")
+                if question_text:
+                    questions.append(question_text)
+        
+        return questions
+        
+    except Exception as e:
+        print(f"Error extracting questions: {e}")
+        return []
 
-if __name__ == "__main__":
-    survey_id = 3200079
-    db_path, table_name = get_data_from_api(survey_id)
-    print(f"Survey {survey_id} imported successfully to {db_path} as {table_name}")
+def get_survey_questions(survey_id):
+    """
+    Get all questions from a survey
+    
+    Args:
+        survey_id: Survey identifier
+        
+    Returns:
+        List of question strings or None if error
+    """
+    try:
+        url = "https://testing.scale1.api.crm.onowenable.com/api/login"
+        payload = {
+            "username": SURVEY_API_USERNAME,
+            "password": SURVEY_API_PASSWORD
+        }
+        headers = {
+            "Content-Type": "application/json"
+        }
+        response = requests.post(url, json=payload, headers=headers)
+        response.raise_for_status()
+        token = response.json().get("access_token")
+
+        if not token:
+            return None
+
+        auth_headers = {
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json"
+        }
+        url = f"https://testing.survey.api.crm.onowenable.com/api/surveys/{survey_id}"
+        response = requests.get(url, headers=auth_headers)
+        response.raise_for_status()
+        
+        survey_data = response.json()
+        questions = extract_questions_from_survey_data(survey_data)
+        
+        return questions
+        
+    except Exception as e:
+        print(f"Error getting survey questions: {e}")
+        return None
