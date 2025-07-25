@@ -417,26 +417,4 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4
 gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
 ```
 
-## Docker Support
 
-### Build and Run with Docker
-
-```bash
-# Build the image
-docker build -t onow-surveybot .
-
-# Run the container
-docker run -p 8000:8000 --env-file .env onow-surveybot
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-[Add your license information here] 
